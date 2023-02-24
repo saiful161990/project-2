@@ -1,0 +1,260 @@
+/* Global class */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web",sans-serif;
+}
+p {
+font-size: 17px;
+line-height: 20px;
+font-weight: 300;
+}
+section{
+    padding: 75px 0px;
+}
+.writing-part{
+    margin-bottom: 50px;
+}
+.half-pg {
+    width: 50%;
+    margin: auto;
+}
+.box{
+    padding: 0px 20px;
+}
+.heading{
+font-size: 35px;
+line-height: 35px;
+font-weight: 600;
+}
+.sub-heading{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 10px 0px;
+}
+.underline{
+border-top: 5px solid #00000036;
+width: 7%;
+margin: 10px auto;
+}
+.btn {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* Layout*/
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    float: left;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+}
+/* Header part */
+header {
+    background-color: #023241;
+    text-align: center;
+    color: white;
+}
+nav {
+   padding: 10px 0px ; 
+}
+.logo-part {
+text-align: left;
+}
+.menu-part {
+text-align: right;
+padding: 10px 0px;
+}
+.menu-part li{
+  display: inline-block;  
+  margin: 0px 5px;
+}
+.menu-part li a{
+   text-decoration: none;
+   font-size: 20px; 
+   color: white;
+   font-weight: 500;
+   padding: 7px 12px;
+   transition: ease-in-out 0.2s;
+}
+.menu-part li a:hover{
+    background-color: #0000004f;
+    border-radius: 5px;
+}
+.hero-part{
+    padding: 150px 100px;
+}
+.hero-part h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.hero-part button{
+    margin-top: 30px;
+    background-color: #eb7d4b;
+    color: #fff;
+}
+/* service section */
+#service{
+background: #17c2a4;
+text-align: center;
+color: #fff;
+}
+#service .box img{
+    height: 150px;
+}
+/* team section */
+#team {
+    background-color: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+}
+.team-icon{
+    margin-top: 20px;
+}
+.team-icon i {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+.team-icon i:hover{
+    background-color: #3c4761;
+    color: #fff;
+}
+.des{
+    font-size: 20px;
+    color: #30bae7;
+}
+/* skill section  */
+#skill {
+    color: #3c4761;
+    text-align: center;
+}
+/* portfolio section */
+#portfolio{
+    background-color:#ffdd99;
+    color: #3c4761;
+    text-align: center;
+}
+.portfolio-btn{
+margin-top: 50px;
+}
+.portfolio-btn button{
+    background-color: #00000036;
+    padding: 10px 0px;
+    width: 75px;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#portfolio .box-part p{
+    margin-top: 15px;
+}
+#portfolio .box-part {
+    margin-bottom: 30px;
+}
+#portfolio .container>  button {
+background-color: #17c2a4;
+color: #fff;
+}
+/* about section */
+#about {
+    background-color:#d74680;
+    color: #3c4761;
+    text-align: center;
+}
+.ceo{
+    font-size: 20px;
+    color: #30bae7;
+}
+/* contact section */
+#contact{
+background-color:#3c5499;
+    color: #fff;
+    text-align: center;
+}
+form {
+    width: 70%;
+    margin: auto;
+}
+.input1{
+display: block;
+width: 49%;
+float: left;
+margin-right: 1%;
+}
+.input2{
+display: block;
+width: 49%;
+float: left;
+margin-left: 1%;
+}
+input,
+textarea {
+padding: 10px;
+background-color: #3c4761;
+color: #fff;
+border-radius: 5px;
+font-size: 18px;
+}
+input::placeholder,
+textarea::placeholder{
+    color: #fff;
+}
+textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+input[type="submit"]{
+    background-color: #30bae7;
+    margin-top: 50px;
+}
+   

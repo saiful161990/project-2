@@ -1,0 +1,120 @@
+/* Mobile device */
+@media (max-width: 600px) {
+    /* Global Css */
+    p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    section {
+        padding: 50px 0px;
+    }
+    .writing-part {
+        margin-bottom: 25px;
+    }
+    .half-pg {
+        width: 100%;
+    }
+    .heading {
+        font-size: 25px;
+        line-height: 25px;
+        }
+    .sub-heading {
+        font-size: 20px;
+        line-height: 25px;
+        }
+    .underline {
+        width: 12%; 
+    }
+    .btn {
+        width: 150px;
+        padding: 7px;
+        font-size: 12px;
+    }
+    .des {
+        font-size: 16px;
+    }
+    /* Layout */
+    [class*="col-s-"] {
+        float: left;
+    }
+    .col-s-1 {
+        width: 8.33%;
+    }
+    .col-s-2 {
+        width: 16.66%;
+    }
+    .col-s-3 {
+        width: 25%;
+    }
+    .col-s-4 {
+        width: 33.33%;
+    }
+    .col-s-5 {
+        width: 41.66%;
+    }
+    .col-s-6 {
+        width: 50%;
+    }
+    .col-s-7 {
+        width: 58.33%;
+    }
+    .col-s-8 {
+        width: 66.66%;
+    }
+    .col-s-9 {
+        width: 75%;
+    }
+    .col-s-10 {
+        width: 83.33%;
+    }
+    .col-s-11 {
+        width: 91.66%;
+    }
+    .col-s-12 {
+        width: 100%;
+    }
+     /* Header part */
+     .Logo-part,
+     .menu-part {
+         text-align: center;
+     }
+     .menu-part li a {
+         font-size: 15px;
+     }
+     .hero-part {
+        padding: 100px 0px;
+     }
+     .hero-part h1 {
+     font-size: 30px;
+     line-height: 30px;
+     }
+     /* service section */
+     #service .box {
+        margin-top: 20px;
+     }
+     #service .box img {
+       height: 100px;
+     }
+     /* team section */
+     #team .box {
+        margin-top: 20px;
+     }
+     #team .box img {
+        max-width: 100%;
+     }
+     .team-icon i {
+        font-size: 14px;
+        padding: 7px;
+    }
+    #portfolio img {
+        max-width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+input,
+textarea {
+padding: 7px;
+font-size: 14px;
+}
+}
